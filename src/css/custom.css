@@ -96,14 +96,14 @@ body {
 
 .navbar__title {
   font-family: 'Orbitron', sans-serif;
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: 0.15em;
-  color: var(--ifm-color-primary);
-  background: linear-gradient(135deg, #00d4aa, #00e9bb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 400;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  color: #2d2d2d;
+}
+
+[data-theme='dark'] .navbar__title {
+  color: #e2e8f0;
 }
 
 .navbar__logo img {
