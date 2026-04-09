@@ -1,0 +1,578 @@
+/**
+ * SelsiPad Docs — GitBook-Inspired Dark Theme
+ * Premium dark documentation aesthetic with teal accents
+ */
+
+/* ===== Google Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+/* ===== CSS Variables ===== */
+:root {
+  /* Brand colors */
+  --ifm-color-primary: #00d4aa;
+  --ifm-color-primary-dark: #00bf99;
+  --ifm-color-primary-darker: #00b391;
+  --ifm-color-primary-darkest: #009477;
+  --ifm-color-primary-light: #00e9bb;
+  --ifm-color-primary-lighter: #00f5c3;
+  --ifm-color-primary-lightest: #1affd4;
+
+  /* Typography */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-size-base: 15px;
+  --ifm-line-height-base: 1.75;
+  --ifm-heading-font-weight: 600;
+  --ifm-font-weight-semibold: 500;
+  --ifm-code-font-size: 90%;
+
+  /* Layout */
+  --doc-sidebar-width: 280px !important;
+  --ifm-global-radius: 8px;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 212, 170, 0.1);
+}
+
+/* ===== Force Dark Mode Defaults ===== */
+[data-theme='light'] {
+  --ifm-color-primary: #00b391;
+  --ifm-color-primary-dark: #009f81;
+  --ifm-color-primary-darker: #009679;
+  --ifm-color-primary-darkest: #007b64;
+  --ifm-color-primary-light: #00c7a1;
+  --ifm-color-primary-lighter: #00d0a9;
+  --ifm-color-primary-lightest: #00ecc1;
+  --ifm-background-color: #f8f9fb;
+  --ifm-navbar-background-color: #ffffff;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #00d4aa;
+  --ifm-color-primary-dark: #00bf99;
+  --ifm-color-primary-darker: #00b391;
+  --ifm-color-primary-darkest: #009477;
+  --ifm-color-primary-light: #00e9bb;
+  --ifm-color-primary-lighter: #00f5c3;
+  --ifm-color-primary-lightest: #1affd4;
+
+  --ifm-background-color: #111827;
+  --ifm-background-surface-color: #1a2235;
+  --ifm-navbar-background-color: rgba(17, 24, 39, 0.85);
+  --ifm-footer-background-color: #0d1117;
+  --ifm-color-emphasis-300: #374151;
+  --ifm-toc-border-color: #1e293b;
+  --ifm-hr-border-color: #1e293b;
+  --ifm-color-content: #e2e8f0;
+  --ifm-color-content-secondary: #94a3b8;
+  --ifm-heading-color: #f1f5f9;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 212, 170, 0.15);
+}
+
+/* ===== Global ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-feature-settings: 'liga', 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+  box-shadow: none;
+  padding: 0.5rem 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom-color: #1e293b;
+}
+
+.navbar__title {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.15em;
+  color: var(--ifm-color-primary);
+  background: linear-gradient(135deg, #00d4aa, #00e9bb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar__logo img {
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.navbar__logo:hover img {
+  transform: scale(1.05);
+}
+
+.navbar__link {
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.navbar__link:hover {
+  opacity: 0.8;
+}
+
+/* ===== Sidebar ===== */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-toc-border-color, #e5e7eb) !important;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right-color: #1e293b !important;
+}
+
+/* Sidebar background */
+[data-theme='dark'] nav.menu {
+  background: #0f172a;
+}
+
+/* Sidebar items */
+.menu__link {
+  font-size: 0.85rem;
+  font-weight: 400;
+  padding: 0.45rem 0.85rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  color: var(--ifm-color-content-secondary, #64748b);
+}
+
+.menu__link:hover {
+  background: rgba(0, 212, 170, 0.08);
+  color: var(--ifm-color-primary);
+}
+
+.menu__link--active {
+  font-weight: 600;
+  color: var(--ifm-color-primary) !important;
+  background: rgba(0, 212, 170, 0.1) !important;
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+/* Sidebar category labels */
+.menu__list-item-collapsible .menu__link {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ifm-color-content-secondary, #64748b);
+  padding-top: 0.8rem;
+}
+
+.menu__list-item-collapsible .menu__link:hover {
+  background: transparent;
+}
+
+/* Nested sidebar items spacing */
+.menu__list .menu__list {
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+  margin-left: 0.85rem;
+}
+
+[data-theme='dark'] .menu__list .menu__list {
+  border-left-color: #1e293b;
+}
+
+/* ===== Main Content ===== */
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+  max-width: 100%;
+}
+
+/* Article content width — GitBook keeps it readable */
+article {
+  max-width: 780px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Headings */
+.markdown h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+}
+
+[data-theme='dark'] .markdown h1 {
+  border-bottom-color: #1e293b;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.markdown h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.markdown h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+/* Paragraphs */
+.markdown p {
+  line-height: 1.8;
+  color: var(--ifm-color-content);
+}
+
+/* Links */
+.markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.markdown a:hover {
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+/* Lists */
+.markdown ul,
+.markdown ol {
+  padding-left: 1.5rem;
+}
+
+.markdown li {
+  margin-bottom: 0.4rem;
+  line-height: 1.7;
+}
+
+.markdown li::marker {
+  color: var(--ifm-color-primary);
+}
+
+/* ===== Admonitions (GitBook hint-style) ===== */
+.alert {
+  border-radius: 8px;
+  border-left-width: 4px;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  backdrop-filter: blur(4px);
+}
+
+[data-theme='dark'] .alert--info {
+  background: rgba(0, 136, 255, 0.08);
+  border-left-color: #0088ff;
+}
+
+[data-theme='dark'] .alert--warning {
+  background: rgba(255, 171, 0, 0.08);
+  border-left-color: #ffab00;
+}
+
+[data-theme='dark'] .alert--danger {
+  background: rgba(255, 68, 68, 0.08);
+  border-left-color: #ff4444;
+}
+
+[data-theme='dark'] .alert--success {
+  background: rgba(0, 212, 170, 0.08);
+  border-left-color: #00d4aa;
+}
+
+/* ===== Tables ===== */
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table thead tr {
+  border-bottom: 2px solid var(--ifm-toc-border-color, #e5e7eb);
+}
+
+[data-theme='dark'] table thead tr {
+  border-bottom-color: #1e293b;
+}
+
+table thead th {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1rem;
+}
+
+table tbody td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+}
+
+[data-theme='dark'] table tbody td {
+  border-bottom-color: #1e293b;
+}
+
+[data-theme='dark'] table tbody tr:hover {
+  background: rgba(0, 212, 170, 0.04);
+}
+
+/* ===== Code Blocks ===== */
+[data-theme='dark'] .prism-code {
+  background: #0d1117 !important;
+  border: 1px solid #1e293b;
+}
+
+code {
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.85em;
+}
+
+[data-theme='dark'] code {
+  background: rgba(0, 212, 170, 0.1);
+  color: #00d4aa;
+  border: 1px solid rgba(0, 212, 170, 0.15);
+}
+
+/* ===== TOC (Table of Contents - right side) ===== */
+.table-of-contents {
+  font-size: 0.8rem;
+  border-left: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+}
+
+[data-theme='dark'] .table-of-contents {
+  border-left-color: #1e293b;
+}
+
+.table-of-contents__link {
+  color: var(--ifm-color-content-secondary, #64748b);
+  transition: color 0.2s ease;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* ===== Footer ===== */
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+  padding: 2rem 0;
+}
+
+[data-theme='dark'] .footer {
+  border-top-color: #1e293b;
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.footer__link-item {
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+}
+
+.footer__copyright {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-top: 1.5rem;
+}
+
+/* ===== Pagination (Prev/Next) ===== */
+.pagination-nav__link {
+  border: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  transition: all 0.2s ease;
+}
+
+[data-theme='dark'] .pagination-nav__link {
+  border-color: #1e293b;
+  background: #1a2235;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  background: rgba(0, 212, 170, 0.05);
+}
+
+.pagination-nav__sublabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+}
+
+.pagination-nav__label {
+  font-weight: 600;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* ===== Breadcrumbs ===== */
+.breadcrumbs__link {
+  font-size: 0.8rem;
+  color: var(--ifm-color-content-secondary, #64748b);
+  transition: color 0.2s ease;
+}
+
+.breadcrumbs__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* ===== Search Bar (GitBook-style) ===== */
+.navbar .navbar__search {
+  position: relative;
+}
+
+.navbar .navbar__search-input {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  padding: 0.45rem 1rem;
+  padding-right: 4.5rem;
+  width: 260px;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-toc-border-color, #d1d5db);
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.navbar .navbar__search-input:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 212, 170, 0.12);
+  width: 320px;
+}
+
+.navbar .navbar__search-input::placeholder {
+  color: var(--ifm-color-content-secondary, #94a3b8);
+}
+
+[data-theme='dark'] .navbar .navbar__search-input {
+  background: #1a2235;
+  border-color: #1e293b;
+}
+
+[data-theme='dark'] .navbar .navbar__search-input:focus {
+  border-color: var(--ifm-color-primary);
+  background: #1f2937;
+}
+
+/* Search keyboard shortcut badge */
+.search-bar-shortcut {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 3px;
+  pointer-events: none;
+}
+
+.search-bar-shortcut kbd {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  padding: 1px 5px;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-toc-border-color, #d1d5db);
+  background: var(--ifm-background-surface-color, #f3f4f6);
+  color: var(--ifm-color-content-secondary, #6b7280);
+  line-height: 1.4;
+}
+
+[data-theme='dark'] .search-bar-shortcut kbd {
+  background: #0f172a;
+  border-color: #374151;
+  color: #6b7280;
+}
+
+/* ===== Images in docs (GitBook figure style) ===== */
+article figure {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-toc-border-color, #e5e7eb);
+}
+
+[data-theme='dark'] article figure {
+  border-color: #1e293b;
+}
+
+article figure img {
+  width: 100%;
+  display: block;
+}
+
+article figure figcaption {
+  font-size: 0.8rem;
+  color: var(--ifm-color-content-secondary, #64748b);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* ===== Mobile Responsive ===== */
+@media (max-width: 996px) {
+  .markdown h1 {
+    font-size: 1.6rem;
+  }
+
+  article {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+}
+
+/* ===== Selection Color ===== */
+::selection {
+  background: rgba(0, 212, 170, 0.25);
+  color: inherit;
+}
