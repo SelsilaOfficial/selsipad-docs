@@ -7,6 +7,62 @@ description: Selsila Strategic Evolution
 
 ## Official Announcement
 
+### SELSILA POH Extension
+
+#### 29 June 2026
+
+Congratulations to everyone who successfully completed their **Proof of Human (POH)** during the 30-day campaign throughout June 2026. Your commitment shows that you truly believe in the SELSILA vision and continue to support every ecosystem and project being developed by our team.
+
+Over the past few months, our community has witnessed continuous ecosystem updates, product development, and steady progress from the SELSILA Team. We remain committed to delivering what we build, step by step, with transparency and consistency.
+
+We have also received a great deal of feedback from community members who are still eager to complete their POH but requested additional time. After careful consideration, the SELSILA Management Team has unanimously agreed to extend the POH campaign for another **30 days throughout July 2026.**
+
+#### Exclusive POH Benefits
+
+Users who complete POH (Proof of Human) during this extension period will still be eligible to receive:
+
+**30%–50% LIFETIME DISCOUNT** on eligible SILAMIND subscription plans.
+
+This lifetime discount includes premium features such as:
+
+- AI Trading Signals
+- AI Auto Trading
+- AI Coach with Daily Trading Performance Guidelines
+- Social Trading Community
+- Create & Join Trader Events
+- Verified Trader Profiles & Leaderboards
+- Trading Challenges, Achievements & Rewards
+
+#### SILAMIND Is Coming
+
+SILAMIND is currently running in its **Beta Testnet** phase with selected users.
+
+**Expected Mainnet Launch: August 2026**
+
+After Mainnet goes live, public users will be able to:
+
+- Download the SILAMIND App
+- Experience AI-powered Social Trading
+- Join a global community of verified traders
+- Learn, trade, compete and grow together with AI
+
+#### Final Opportunity
+
+If you haven't completed your POH yet, this is your final opportunity. The extension throughout July 2026 has been granted based on community feedback, and no further extensions are currently planned.
+
+Don't miss the opportunity to secure your exclusive lifetime benefits and become part of the SELSILA ecosystem before the public launch.
+
+Learn more about SILAMIND: [https://silamind.ai](https://silamind.ai)
+
+Thank you for your continued trust and support.\
+Together, we are building the future of AI-powered Social Trading.
+
+SELSILA WORLD\
+Management Team\
+29 June 2026
+
+---
+
 ### Growing Together Towards Economic Sovereignty
 
 #### To our Early Believers, Visionary Supporters, and the Global Selsila Family,
