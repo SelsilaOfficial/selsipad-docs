@@ -67,49 +67,70 @@ Management Team\
 
 #### To our Early Believers, Visionary Supporters, and the Global Selsila Family,
 
-Today marks a beautiful new chapter in our shared story. First and foremost, we want to\
-celebrate you. The successful launch of Selsila Launchpad wasn't just a technical win; it was a\
-heartbeat. It proved that when we align technology with the resilience of a community, we\
-create something real. SelsiPad is the first step in an ecosystem we are building together to\
+Today marks a beautiful new chapter in our shared story. First and foremost, we want to
+\
+celebrate you. The successful launch of Selsila Launchpad wasn't just a technical win; it was a
+\
+heartbeat. It proved that when we align technology with the resilience of a community, we
+\
+create something real. SelsiPad is the first step in an ecosystem we are building together to
+\
 redefine the future of Web3.
 
 #### 1. Moving to Our Own Home (Native Blockchain)
 
-Airdrop launch (2025) , Selsila Lauchpad (2026) , Wallet (2026), SBT Event (2026) , Selsi Dex\
+Airdrop launch (2025) , Selsila Lauchpad (2026) , Wallet (2026), SBT Event (2026) , Selsi Dex
+\
 (coming soon 2026) , SelsiChain (2027) , Selsi World Economic Game (SWEG) (2028)
 
-Selsila began its journey on Solana, which was a wonderful place to start. However, thanks to the\
-incredible energy you’ve brought to this project, we have caught the eye of major global\
+Selsila began its journey on Solana, which was a wonderful place to start. However, thanks to the
+\
+incredible energy you’ve brought to this project, we have caught the eye of major global
+\
 investors who believe in our long-term scale.
 
-To ensure we can grow without limits, we have made the heart-led decision to move into our\
-own "home": The Proprietary Native Selsila Blockchain. This transition is about Sovereignty.\
-By having our own network, we are no longer guests on someone else's platform. This gives us\
-the freedom to provide you with better security, lower costs, and total stability for the Selsi\
+To ensure we can grow without limits, we have made the heart-led decision to move into our
+\
+own "home": The Proprietary Native Selsila Blockchain. This transition is about Sovereignty.
+\
+By having our own network, we are no longer guests on someone else's platform. This gives us
+\
+the freedom to provide you with better security, lower costs, and total stability for the Selsi
+\
 World Economic Game (SWEG) and SelsiDex.
 
 #### 2. Our Listing Strategy - Building a Foundation That Lasts
 
-We understand how exciting the prospect of “Listing Day” can be and we share that excitement\
-with our community. However, at Selsila, we believe that a truly strong project is not defined by\
+We understand how exciting the prospect of “Listing Day” can be and we share that excitement
+\
+with our community. However, at Selsila, we believe that a truly strong project is not defined by
+\
 a single day of trading, but by the long-term value and sustainability it delivers.
 
-To protect the value of your assets and ensure the strongest possible market entry, the official\
-listing will take place once our entire ecosystem is fully developed and integrated, which we\
+To protect the value of your assets and ensure the strongest possible market entry, the official
+\
+listing will take place once our entire ecosystem is fully developed and integrated, which we
+\
 anticipate between 2027 – 2028.
 
-To ensure a smooth and transparent transition for all partners and supporters, all token\
+To ensure a smooth and transparent transition for all partners and supporters, all token
+\
 distributions will be executed during the Token Generation Event (TGE)
 
-This approach allows Selsila to enter the global market with real utility, a mature ecosystem, and\
-a foundation built for long-term growth not just a temporary moment of hype. When Selsila\
+This approach allows Selsila to enter the global market with real utility, a mature ecosystem, and
+\
+a foundation built for long-term growth not just a temporary moment of hype. When Selsila
+\
 launches globally, it will launch with strength designed to last for generations.
 
 #### 3. Introducing SBT Staking - Rewarding Your Journey Soon
 
-Your loyalty is the most valuable asset in the Selsila ecosystem. As we continue building our\
-infrastructure, we don’t want your tokens to simply stay idle.\
-That’s why we are introducing SBT Staking (Soul Bound Token Staking) a reward system created\
+Your loyalty is the most valuable asset in the Selsila ecosystem. As we continue building our
+\
+infrastructure, we don’t want your tokens to simply stay idle.
+\
+That’s why we are introducing SBT Staking (Soul Bound Token Staking) a reward system created
+\
 to give back to our early supporters while the ecosystem continues to grow
 
 #### 4. Exclusive Access for POH Verified Users
@@ -126,7 +147,8 @@ To protect the long-term value of the ecosystem, strict security measures will b
 
 #### Zero Tolerance for Bots
 
--Any tokens generated through fake accounts, bots, or non-human activity will be immediately\
+-Any tokens generated through fake accounts, bots, or non-human activity will be immediately
+\
 removed.
 
 #### Human-Only Rewards
@@ -135,33 +157,48 @@ removed.
 
 #### Value Protection
 
--Removing fake accounts and ghost supply ensures that real community members receive the\
+-Removing fake accounts and ghost supply ensures that real community members receive the
+\
 rewards, strengthening the value of the Selsila ecosystem.
 
 #### 5. Critical Action Required
 
-2 Week POH Verification Window\
-To prepare for migration into the Selsila native ecosystem, all airdrop holders must complete\
+2 Week POH Verification Window
+\
+To prepare for migration into the Selsila native ecosystem, all airdrop holders must complete
+\
 POH verification.
 
-\
-Verification Period:-\
-Start Date: May 3, 2026\
-Duration: 2 Weeks Only\
+
+\
+Verification Period:-
+\
+Start Date: May 3, 2026
+\
+Duration: 2 Weeks Only
+\
 All airdrop holders must verify their accounts within this period.
 
-\
-Completing POH will make your account eligible for:\
-• SBT Staking rewards\
-• Airdrop 2.0 participation\
-• Token eligibility during TGE listing\
+
+\
+Completing POH will make your account eligible for:
+\
+• SBT Staking rewards
+\
+• Airdrop 2.0 participation
+\
+• Token eligibility during TGE listing
+\
 • Future ecosystem incentives
 
 #### Important Notice
 
-If an airdrop account does not complete POH verification within the 2-week window:\
-• All tokens in that account will be permanently burned\
-• The account will lose access to all ecosystem benefits\
+If an airdrop account does not complete POH verification within the 2-week window:
+\
+• All tokens in that account will be permanently burned
+\
+• The account will lose access to all ecosystem benefits
+\
 This ensures that only active and verified community members hold the future supply of Selsila.
 
 #### 6. Final Airdrop Closure
@@ -172,13 +209,55 @@ Official Airdrop End Date:
 
 #### April 30, 2026
 
-The future of Selsila is being built by a community that believes in long-term value, transparency,\
-and shared growth. We are not just building a project. We are building a legacy of community\
+The future of Selsila is being built by a community that believes in long-term value, transparency,
+\
+and shared growth. We are not just building a project. We are building a legacy of community
+\
 driven wealth.
 
 Happy claiming while the clock is ticking.
 
-Selsila World Team\
+Selsila World Team
+\
 11 March 2026
 
-
+
+# OFFICIAL ANNOUNCEMENT
+
+# Exclusive Early Access to SILAMIND AI for Verified POH Holders
+
+We are pleased to announce that everyone who has successfully completed Proof of Humanity (POH) will be officially invited to become an Early User of SILAMIND AI, launching on 5 August 2026.
+
+As one of our verified early supporters, you will enjoy exclusive privileges that will never be available to the general public.
+
+🎁 Exclusive Benefits for POH Holders
+
+✅ Instant Early Access to SILAMIND AI before the public launch.
+
+✅ One-Click Registration – Simply register using the same email address you used for your POH verification. Your account will be automatically recognized, allowing you to unlock all SILAMIND AI Premium features.
+
+✅ 100% FREE Premium Access for 1 Month – Experience every premium feature of SILAMIND AI at no cost during the first month after launch.
+
+✅ Connect Your Existing Trading Capital – Securely connect your Binance and Hyperliquid trading accounts and start using SILAMIND AI with your own trading capital.
+
+✅ Exclusive Lifetime Subscription Discount – Verified POH holders will receive a permanent subscription discount that will never be offered to users who join after the POH campaign.
+
+⸻
+
+⏳ Only 4 Days Remaining
+
+The POH verification window closes in just 4 days.
+
+This is your final opportunity to secure Founder-Level Early Access and enjoy exclusive lifetime benefits reserved only for verified POH holders.
+
+Once the registration period ends, these privileges—including Premium access, lifetime subscription discounts, and Founder benefits—will no longer be available to new users.
+
+Don’t miss your chance to become one of the first members of the SILAMIND AI ecosystem and experience the next generation of AI-powered trading technology.
+
+🚀 Official Launch: 5 August 2026
+
+🌐 www.selsiworld.com
+
+Selsila World
+Building the Future of AI-Powered Trading & Intelligent Wealth Creation.
+
