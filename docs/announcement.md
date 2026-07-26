@@ -225,6 +225,7 @@ Selsila World Team
 # OFFICIAL ANNOUNCEMENT
 
 # Exclusive Early Access to SILAMIND AI for Verified POH Holders
+## 26 JULY 2026
 
 We are pleased to announce that everyone who has successfully completed Proof of Humanity (POH) will be officially invited to become an Early User of SILAMIND AI, launching on 5 August 2026.
 
